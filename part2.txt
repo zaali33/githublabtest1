@@ -1,13 +1,14 @@
 Answer the following, add your answer below each question:
 Q1) Copy and paste the ID of the commit that caused the bug (fast shooting)?
+	25ed
 
 
 Q2) Copy and paste the line(s) of code you expect to have caused the bug? 
-
+	this.delayBeforeBullet = 10
 
 Q3) Fix the bug and commit your changes of this fix on the master branch? Paste the commit ID below.
-
-
+	 1cf56d2
+	
 Q4) Copy and paste the name of the developer who has been recently working on the coins branch.
-
+	Sarah Spikes
 
