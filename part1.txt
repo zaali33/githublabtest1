@@ -17,7 +17,8 @@ Q1-c) Copy and paste below the lines that were deleted?
 
 Q2) Copy and paste the names of the branches in this repo?
 	- master
-
+	- coins
+	- origin/head
 
 Q3) Copy and paste the ID of the latest commit that saved changes in all three files: 
 game.js, index.html, and ipad.js? It's enough to paste the first 4 digits only.
