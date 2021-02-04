@@ -1,26 +1,32 @@
 Answer the following, add your answer below each question:
 Q1-a) How many lines were added, how many lines were deleted in the commit 4035?
-
+	only 1 line was added. The other 2 lines were modified. 2 lines are showing
+	as red and 3 are showing as green. 
+	Therefore, 3 insertions and 2 deletions
 
 Q1-b) Copy and paste below the lines that were added?
-
-
+	+  var frameInterval = 25; (added)
+	+  var mainLoopId = setInterval(mainLoop, frameInterval); (modified)
+	+ mainLoopId = setInterval(mainLoop, frameInterval); (modified)
+	
 
 Q1-c) Copy and paste below the lines that were deleted?
-
+	-  var mainLoopId = setInterval(mainLoop, 25); (modified)
+	-  mainLoopId = setInterval(mainLoop, 10); (modified)
 
 
 Q2) Copy and paste the names of the branches in this repo?
-
+	- master
 
 
 Q3) Copy and paste the ID of the latest commit that saved changes in all three files: 
 game.js, index.html, and ipad.js? It's enough to paste the first 4 digits only.
-
+	25ede836903881848fea811df5b687b59d962da3
 
 Q4-a) Assuming a repository has several commits, a developer made some changes to the file named file1.txt
 and added it to the staging area, what command can be used to compare the file to the latest commit? Write the full command!
-
+	git diff --staged
 
 Q4-b) Continuing with the above assumption, the developer made more changes without staging the file,
 what is the command to compare the changes between the staging area and the working directory?
+	git diff
